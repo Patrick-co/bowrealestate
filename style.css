@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body { 
+    background: #FBE8A6 !important;
+/*    background-image: linear-gradient(to bottom left, #FBE8A6, #F4976C);*/
+/*    font-family: 'Open Sans', sans-serif;*/
+	line-height: 1.5; 
+    color: #303C6C !important;
+} /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+
+h2 {
+    font-family: 'Standlist';
+    text-shadow: 5px 5px 5px #D2FDFF;
+}
+
+Video Header Background
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+:root {
+	--primary-color: #3a4052;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+.namebrand {
+    background-color: black;
+    color: #303C6C;
+}
+*/
+
+.connected {
+    background-color: white;
+}
+/*
+.aboutme {
+    background-color: black;
+    color: #303C6C;
+}
+*/
+
+.aboutme h4 {
+    color: #F4976C;
+}
+
+/*
+.emailcontact {
+    background-color: black;
+    color: white;
+}
+
+.cardgallery {
+    background-color: black;
+}
+
+.cardgallery h3 {
+    color: white;
+}
+*/
+
+/*
+footer {
+    background-color: black;
+    color: white;
+}
+*/
+
+video {
+    object-fit:cover;
+    width: 100vw;
+    height: 80vh;
+    position:static;
+    top: 0;
+    left: 0;
+}
+
+html {
+  height:100%;
+}
+
+img {
+  border:solid 2px;
+  border-bottom-color:#ffe;
+  border-left-color:#eed;
+  border-right-color:#eed;
+  border-top-color:#ccb;
+  max-height:100%;
+  max-width:100%;
+}
+
+.frame {
+  background-color:#ddc;
+  border:solid 5vmin #eee;
+  border-bottom-color:#fff;
+  border-left-color:#eee;
+  border-radius:2px;
+  border-right-color:#eee;
+  border-top-color:#ddd;
+  box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+  box-sizing:border-box;
+  display:inline-block;
+  margin:10vh 10vw;
+  height:40vh;
+  padding:4vmin;
+  position:relative;
+  text-align:center;
+  &:before {
+    border-radius:2px;
+    bottom:-2vmin;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,.25) inset;
+    content:"";
+    left:-2vmin;
+    position:absolute;
+    right:-2vmin;
+    top:-2vmin;
+  }
+  &:after {
+    border-radius:2px;
+    bottom:-2.5vmin;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+    content:"";
+    left:-2.5vmin;
+    position:absolute;
+    right:-2.5vmin;
+    top:-2.5vmin;
+  }
+}
